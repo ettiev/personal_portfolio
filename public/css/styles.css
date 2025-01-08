@@ -42,7 +42,19 @@ h4 {
     background-color: #DFF6FF;
     font-family: 'Quicksand', sans-serif;
     padding: 20px;
-    margin: 30px 0px
+    margin: 30px 0px;
+    border: solid #06283D 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgb(53, 54, 54);
+}
+
+.cardMain {
+    background-color: #DFF6FF;
+    font-family: 'Quicksand', sans-serif;
+    padding: 35px;
+    margin: 30px 0px;
+    border: solid #06283D 5px;
+    border-radius: 5px; 
 }
 
 .container {
@@ -52,7 +64,7 @@ h4 {
 .header {
     background-color: #47B5FF;
     border-bottom: solid #06283D 15px ;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     height: 250px;
     top: 0px;
     width: 100%;
@@ -71,6 +83,20 @@ h4 {
     color: #DFF6FF;
 }
 
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linkImage {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 45px;
+    border: solid #06283D 2px;
+    border-radius: 5px;
+}
+
 .logoCard {
     background-color: transparent;
     padding: 10px;
@@ -84,18 +110,45 @@ h4 {
     border-radius: 10%;
 }
 
+.mob-project-img {
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;    
+}
+
+.personalInfo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;   
+}
+
 .profileImg {
     border: solid #06283D 15px;
     border-radius: 50%;
     float: left;
     height: 220px;
-    margin: 0px 25px
+    margin: 0px 25px;
+}
+
+.profileImgMain {
+    border: solid #06283D 15px;
+    border-radius: 50%;
+    float: left;
+    height: 300px;
+    margin: 25px 45px 25px 25px;
 }
 
 .project-img {
     height: 180px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.projectLinksHeading {
+    margin-left: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 28px;    
 }
 
 .skillList {
